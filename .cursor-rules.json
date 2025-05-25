@@ -1,0 +1,32 @@
+{
+  "javascript": {
+    "enforceFileExtension": "js",
+    "disallowTypeScript": true,
+    "requireComments": {
+      "functions": true,
+      "classes": true,
+      "componentDefinitions": true
+    }
+  },
+  "formatting": {
+    "usePrettier": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true
+  },
+  "structure": {
+    "components": {
+      "location": "components/",
+      "naming": "PascalCase"
+    },
+    "pages": {
+      "location": "app/",
+      "naming": "kebab-case"
+    },
+    "utils": {
+      "location": "utils/",
+      "naming": "camelCase"
+    }
+  }
+} 
